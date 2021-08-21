@@ -1,0 +1,8 @@
+
+pip install gunicorn
+
+source virt_flask/Scripts/activate
+
+export FLASK_ENV=development
+
+export FLASK_APP=hello.py
